@@ -12,6 +12,13 @@ Generate-and-filter wastes effort on the exponentially many invalid strings. The
 
 **Complexity:** O(Catalan(n) · n) — the output's own size; O(n) depth.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
