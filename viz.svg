@@ -28,33 +28,33 @@
 <text x="56.0" y="197.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Grow a string under two rules: add '(' while opens &lt; n; add ')' while closes &lt;</text>
 <text x="56.0" y="216.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">opens. The second rule is the pruner — a ')' can never outnumber '(' in any prefix.</text>
 <text x="24.0" y="240.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="start" font-weight="600">growth</text>
-<text x="47.0" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">prefix</text>
-<text x="93.0" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">state</text>
-<text x="139.0" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">why</text>
-<rect x="24.0" y="262.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="46.0" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">(</text>
-<rect x="70.0" y="262.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="92.0" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">1 open</text>
-<rect x="116.0" y="262.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="138.0" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">both doors open</text>
-<rect x="24.0" y="294.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="46.0" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">((</text>
-<rect x="70.0" y="294.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="92.0" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">2 opens</text>
-<rect x="116.0" y="294.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="138.0" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">( or )</text>
-<rect x="24.0" y="326.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="46.0" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">(()</text>
-<rect x="70.0" y="326.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="92.0" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">close ok</text>
-<rect x="116.0" y="326.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="138.0" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">closes &lt; opens</text>
-<rect x="24.0" y="358.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="46.0" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">())</text>
-<rect x="70.0" y="358.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="92.0" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">never built</text>
-<rect x="116.0" y="358.0" width="44.0" height="30.0" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
-<text x="138.0" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">pruned</text>
+<text x="51.4" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">prefix</text>
+<text x="123.2" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">state</text>
+<text x="225.6" y="256.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">why</text>
+<rect x="24.0" y="262.0" width="52.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="50.4" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">(</text>
+<rect x="78.8" y="262.0" width="86.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="122.2" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">1 open</text>
+<rect x="167.6" y="262.0" width="114.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="224.6" y="282.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">both doors open</text>
+<rect x="24.0" y="294.0" width="52.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="50.4" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">((</text>
+<rect x="78.8" y="294.0" width="86.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="122.2" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">2 opens</text>
+<rect x="167.6" y="294.0" width="114.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="224.6" y="314.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">( or )</text>
+<rect x="24.0" y="326.0" width="52.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="50.4" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">(()</text>
+<rect x="78.8" y="326.0" width="86.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="122.2" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">close ok</text>
+<rect x="167.6" y="326.0" width="114.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="224.6" y="346.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">closes &lt; opens</text>
+<rect x="24.0" y="358.0" width="52.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="50.4" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">())</text>
+<rect x="78.8" y="358.0" width="86.8" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="122.2" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">never built</text>
+<rect x="167.6" y="358.0" width="114.0" height="30.0" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="224.6" y="378.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">pruned</text>
 <line x1="24.0" y1="404.0" x2="736.0" y2="404.0" stroke="#e2e8f0" stroke-width="1"/>
 <circle cx="35.0" cy="424.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
 <text x="35.0" y="428.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
